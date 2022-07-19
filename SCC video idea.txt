@@ -1,0 +1,113 @@
+Linux Torvalds
+1. How you got to understand open source?
+- did not start Linux as acollaborative project but started it as one in a series of many projects
+- no open source on his radar at all
+- project become something you want to show to people
+- no intention behind using the kind of open-source methodology that we think of today to improve it
+
+worry
+- about the whole commercial interests coming in
+- somebody taking advantage of their work
+
+- people always give ideas and feedbacks
+
+Your role in Git
+- A lot of people make small small change
+problem
+- There are whole project do only source-code maintenance (CVS commonly used)
+- Git created to maintain his first big project
+
+2. Both Linux and Git kind of arose almost as an unintended consequence of your desire not to have to work with too many people
+- Yes
+
+- He is prototypical nerd and geek
+- HIs biggest exceptional quality was that he would not let go
+- He is stubborn (顽固)
+
+3. Stubboernness sometimes brought you in conflict with other people. Was that essential to sort of maintain the quality of what was being built?
+- say something might hurt other people
+
+like about open source 
+- allow different people to work together
+- don't have to like each other
+- very heated argument (非常激烈的争论)
+
+4. You talked about some other trait that you have which found very interesting is the idea called taste
+- singly-linked list (example)
+- Good taste is about really seeing the big patterns and kind of instinctively knowing what's the irght way to do things
+
+- have taste in a way that's meaningful to software people
+-  are smart computer coder and your are hellish stubborn
+
+5. The ability of these grand vision of the future
+- he is not a visionary
+- He is looking at the ground and he want to fix the pothole that's right in front of him before he falls in
+
+6. Tesla vs Edison
+Tesla - visionary scientist
+- crazy idea man
+
+Edison - often verify for being kind of pedestrian(行人)
+- famous quote "Genius is 1% inspiration(灵感) and 99% perspiration(汗水)"
+- not so intellectual and not visionary
+
+Linux not piss Google
+
+Is the open source idea fully realized now in the world or more it could go?
+- open source work well in code because code work in black and white
+- but in many area like open politics(cannot use same principle)
+
+Martin Fowler
+- the original creators of the agile manifesto
+- not invent refeactoring
+- depply involved in book length project
+1. colleague of mine in india unmeshed joshi whos's been working on a set of patterns around distributed systems
+- start necause he felt that our folks at footworks needed a good grounding in what's going on inside distributed system that we use all the time (kafka, cassandra, react)
+
+Example
+A Client database use non-sql databese and no management of the concurrency in this system
+- consensus protocols like paxus and raft
+
+Diiferent between distrubuted system and single process concurence system
+
+2. What I like to write about is staff that's already fairly well know just not very widely disseminated. Now when I wrote the refactoring book wasn't new in the sense that people have been doing it for years it is just wasn't very widely known
+
+- an analytics data/ data mesh
+- looking at the actual product group themselve
+- agile is a about realizing
+- many people going for centralized approach
+
+
+(29.57)
+Addressing the Problems of the “Critical Aggregator Pattern”
+Challenges - is getting people to undersatnd the trade-offs involved because the trade-offs are often not straightforward
+
+Collecting Pattern or offering advice
+- misapplication of partern
+
+if there's a theme that runs through my work in writing on this site is the interplay between the shift toward agile thinking and the technical patterns and practices that make agile software development practical well the specific of technology change rapidly in our profession. Fundamental practices and pattern are more stable.
+
+Underlying practices and patterns
+- take self testing code (build code using test driven development(TDD))
+- humble object
+
+tools
+JUnit
+
+Dora metrics
+- try and correlate software development activities with business outcomes
+
+References 
+https://www.redhat.com/en/topics/open-source/what-is-open-source
+
+https://www.estuate.com/company/blog/5-most-commonly-faced-software-development-challenges
+
+https://www.guru99.com/test-driven-development.html
+
+https://devlead.io/DevTips/HumbleObject#:~:text=This%20pattern%20is%20often%20applied,part%20of%20the%20build%20process.
+
+https://www.techtarget.com/searchsoftwarequality/definition/agile-software-development
+
+https://jellyfish.co/blog/dora-metrics-101/
+
+
